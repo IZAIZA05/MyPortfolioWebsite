@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio | Siti Nurfaizah</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#">SITI NURFAIZAH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="lead">Discover My Work and Experience</p>
+            <button class="btn btn-dark">Visit My Works</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p>Halo, saya Siti Nurfaizah, seorang mahasiswa yang saat ini sedang menjalani Studi Independen MSIB Batch 7 di LearningX Academy. Saya memiliki ketertarikan dalam pengembangan web dan selalu bersemangat untuk mempelajari teknologi terbaru
+                        di dunia digital. Dengan latar belakang di bidang Teknik Informatika, saya berfokus pada pengembangan keterampilan Full Stack Web Development untuk membangun solusi kreatif yang dapat bermanfaat bagi masyarakat. Saya percaya bahwa
+                        dengan semangat belajar dan kerja keras, kita bisa mencapai tujuan yang lebih besar.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="images/1.jpg" alt="My Photo" class="img-fluid rounded-circle shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg">
+                        <img src="images/2.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">UI/UX Design</h5>
+                            <p class="card-text">Saya memiliki pengalaman dalam membuat desain UI/UX, termasuk prototipe aplikasi BRImo menggunakan Figma. Proyek ini merupakan tugas UAS dari dosen yang berhasil saya selesaikan dengan baik dan mendapatkan nilai yang memuaskan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg">
+                        <img src="images/3.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Mikrokontroller</h5>
+                            <p class="card-text">Saya memiliki pengalaman merancang mikrokontroler untuk sistem penyiraman tanaman otomatis menggunakan ESP32. Proyek ini merupakan tugas UAS dari dosen, yang berhasil saya selesaikan dengan baik dan mendapatkan nilai yang memuaskan.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow-lg">
+                        <img src="images/4.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplikasi Mobile</h5>
+                            <p class="card-text">Saya memiliki pengalaman membuat aplikasi mobile tentang pengenalan wisata di Kabupaten Bojonegoro berbasis Android. Proyek ini merupakan tugas UAS dari dosen, yang berhasil saya selesaikan dengan baik dan mendapatkan nilai
+                                yang memuaskan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form action="#" class="d-flex flex-column align-items-center">
+                <input type="text" class="form-control mb-3 w-50 shadow-sm" placeholder="Your Name" required>
+                <input type="email" class="form-control mb-3 w-50 shadow-sm" placeholder="Enter Email" required>
+                <textarea class="form-control mb-3 w-50 shadow-sm" rows="4" placeholder="Write Something" required></textarea>
+                <button type="submit" class="btn btn-outline-dark w-30 shadow-sm-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 My Portfolio | Siti Nurfaizah</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

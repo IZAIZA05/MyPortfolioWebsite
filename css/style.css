@@ -1,0 +1,49 @@
+/* Custom Styles */
+
+body {
+    padding-top: 56px;
+}
+
+#home {
+    background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+    color: white;
+}
+
+#about,
+#projects,
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+#about img {
+    max-width: 80%;
+    height: auto;
+    border: 5px solid #ddd;
+    margin-top: 20px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact button {
+    padding: 10px;
+}
